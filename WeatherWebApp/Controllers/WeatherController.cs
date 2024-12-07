@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc; 
+using System.IO;
 using System.Net.Http;    
 using System.Text.Json;        
 using System.Threading.Tasks;  
@@ -10,10 +11,23 @@ namespace WeatherWebApp.Controllers
     public class WeatherController : ControllerBase
     {
         private readonly HttpClient _httpClient;
+        private readonly string apiKey_;
 
         public WeatherController(IHttpClientFactory httpClientFactory)
         {
             _httpClient = httpClientFactory.CreateClient();
+            apiKey_ = LoadApiKey(); 
+        }
+
+        private string LoadApiKey()
+        {
+            // Path to the txt file containing your API key
+            string apiKeyFilePath = Path.Combine(Directory.GetCurrentDirectory(), "apikey.txt");
+
+            if (!System.IO.File.Exists(apiKeyFilePath))
+                throw new FileNotFoundException("API key file not found.");
+
+            return System.IO.File.ReadAllText(apiKeyFilePath).Trim();
         }
 
         [HttpGet]
@@ -22,8 +36,8 @@ namespace WeatherWebApp.Controllers
             if (string.IsNullOrEmpty(city))
                 return BadRequest("City is required.");
 
-            string apiKey = "217ba34e9318036e8bc512141b498c21"; 
-            string weatherApiUrl = $"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={apiKey}";
+            //string apiKey = apiKey_; 
+            string weatherApiUrl = $"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={apiKey_}";
 
             try
             {

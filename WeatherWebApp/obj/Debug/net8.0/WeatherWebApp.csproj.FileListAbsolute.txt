@@ -45,3 +45,5 @@ C:\Users\user\Desktop\ULFG\Cloud&BigData\Sprint10\WeatherWebAppGD\WeatherWebApp\
 C:\Users\user\Desktop\ULFG\Cloud&BigData\Sprint10\WeatherWebAppGD\WeatherWebApp\obj\Debug\net8.0\WeatherWebApp.pdb
 C:\Users\user\Desktop\ULFG\Cloud&BigData\Sprint10\WeatherWebAppGD\WeatherWebApp\obj\Debug\net8.0\WeatherWebApp.genruntimeconfig.cache
 C:\Users\user\Desktop\ULFG\Cloud&BigData\Sprint10\WeatherWebAppGD\WeatherWebApp\obj\Debug\net8.0\ref\WeatherWebApp.dll
+C:\Users\user\Desktop\ULFG\Cloud&BigData\Sprint10\WeatherWebAppGD\WeatherWebApp\bin\Debug\net8.0\DotNetEnv.dll
+C:\Users\user\Desktop\ULFG\Cloud&BigData\Sprint10\WeatherWebAppGD\WeatherWebApp\bin\Debug\net8.0\Sprache.dll
