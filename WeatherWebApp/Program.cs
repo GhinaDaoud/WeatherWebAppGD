@@ -7,6 +7,16 @@ builder.Services.AddRazorPages();
 //builder.Configuration.AddJsonFile("appsettings.json");
 
 //builder.Configuration.AddEnvironmentVariables();
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", policy =>
+    {
+        policy.AllowAnyOrigin()  
+              .AllowAnyMethod() 
+              .AllowAnyHeader(); 
+    });
+});
+
 
 var app = builder.Build();
 
@@ -25,5 +35,7 @@ app.UseAuthorization();
 
 app.MapRazorPages();
 app.MapControllers();
+
+app.UseCors("AllowAll");
 
 app.Run();
