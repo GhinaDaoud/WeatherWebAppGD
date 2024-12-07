@@ -22,7 +22,7 @@ jobs:
           dotnet-version: '8.x'
 
       - name: Build with dotnet
-        run: dotnet build ./WeatherWebApp/WeatherWebApp.csproj
+        run: dotnet build WeatherWebApp.csproj
         working-directory: ./WeatherWebApp
 
       - name: dotnet publish
