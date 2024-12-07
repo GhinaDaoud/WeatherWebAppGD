@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KjXDpHqwWRX1smXEEOc7rFd8vGuZpFHOc0jEUyZMGKlqd0Zfh6PfrRITmaJFo07PgvlDexiYc6ICzVWw6dgU4g==",
+  "dgSpecHash": "2o0SUi67eWGUfNcMFU4v6j4sM9e49QRqkh84K8KYRy0sumJLVCU5OBfVxeXXDD7DcyRwnXG0M598TFw0YmLK9w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\ULFG\\Cloud&BigData\\Sprint1\\WeatherWebAppGD\\WeatherWebApp\\WeatherWebApp.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\ULFG\\Cloud&BigData\\Sprint10\\WeatherWebAppGD\\WeatherWebApp\\WeatherWebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.0\\microsoft.extensions.configuration.9.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.0\\microsoft.extensions.configuration.abstractions.9.0.0.nupkg.sha512",
