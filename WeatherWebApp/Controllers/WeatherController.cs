@@ -22,12 +22,13 @@ namespace WeatherWebApp.Controllers
         private string LoadApiKey()
         {
             // Path to the txt file containing your API key
-            string apiKeyFilePath = Path.Combine(Directory.GetCurrentDirectory(), "apikey.txt");
+            // string apiKeyFilePath = Path.Combine(Directory.GetCurrentDirectory(), "apikey.txt");
 
-            if (!System.IO.File.Exists(apiKeyFilePath))
-                throw new FileNotFoundException("API key file not found.");
+            // if (!System.IO.File.Exists(apiKeyFilePath))
+            //     throw new FileNotFoundException("API key file not found.");
 
-            return System.IO.File.ReadAllText(apiKeyFilePath).Trim();
+            // return System.IO.File.ReadAllText(apiKeyFilePath).Trim();
+            return Environment.GetEnvironmentVariable("weather_api_key");
         }
 
         [HttpGet]
