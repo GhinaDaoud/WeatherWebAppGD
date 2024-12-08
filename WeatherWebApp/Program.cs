@@ -17,11 +17,15 @@ builder.Services.AddCors(options =>
     });
 });
 
+// builder.Services.AddEndpointsApiExplorer();
+// builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
 if (!app.Environment.IsDevelopment())
 {
+    // app.UseSwagger();
+    // app.UseSwaggerUI();
     app.UseExceptionHandler("/Error");
     app.UseHsts();
 }

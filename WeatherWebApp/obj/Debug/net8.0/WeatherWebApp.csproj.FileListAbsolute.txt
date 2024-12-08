@@ -96,3 +96,10 @@ C:\Users\user\Desktop\ULFG\Cloud&BigData\Sprint1\WeatherWebAppGD\WeatherWebApp\o
 C:\Users\user\Desktop\ULFG\Cloud&BigData\Sprint1\WeatherWebAppGD\WeatherWebApp\obj\Debug\net8.0\WeatherWebApp.pdb
 C:\Users\user\Desktop\ULFG\Cloud&BigData\Sprint1\WeatherWebAppGD\WeatherWebApp\obj\Debug\net8.0\WeatherWebApp.genruntimeconfig.cache
 C:\Users\user\Desktop\ULFG\Cloud&BigData\Sprint1\WeatherWebAppGD\WeatherWebApp\obj\Debug\net8.0\ref\WeatherWebApp.dll
+C:\Users\user\Desktop\ULFG\Cloud&BigData\Sprint1\WeatherWebAppGD\WeatherWebApp\bin\Debug\net8.0\CsvHelper.dll
+C:\Users\user\Desktop\ULFG\Cloud&BigData\Sprint1\WeatherWebAppGD\WeatherWebApp\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\user\Desktop\ULFG\Cloud&BigData\Sprint1\WeatherWebAppGD\WeatherWebApp\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\user\Desktop\ULFG\Cloud&BigData\Sprint1\WeatherWebAppGD\WeatherWebApp\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\user\Desktop\ULFG\Cloud&BigData\Sprint1\WeatherWebAppGD\WeatherWebApp\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\user\Desktop\ULFG\Cloud&BigData\Sprint1\WeatherWebAppGD\WeatherWebApp\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\user\Desktop\ULFG\Cloud&BigData\Sprint1\WeatherWebAppGD\WeatherWebApp\obj\Debug\net8.0\WeatherWebApp.MvcApplicationPartsAssemblyInfo.cs
