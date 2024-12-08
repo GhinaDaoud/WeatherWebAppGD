@@ -5340,11 +5340,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\ULFG\\Cloud&BigData\\Sprint10\\WeatherWebAppGD\\WeatherWebApp\\WeatherWebApp.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\ULFG\\Cloud&BigData\\Sprint1\\WeatherWebAppGD\\WeatherWebApp\\WeatherWebApp.csproj",
       "projectName": "WeatherWebApp",
-      "projectPath": "C:\\Users\\user\\Desktop\\ULFG\\Cloud&BigData\\Sprint10\\WeatherWebAppGD\\WeatherWebApp\\WeatherWebApp.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\ULFG\\Cloud&BigData\\Sprint1\\WeatherWebAppGD\\WeatherWebApp\\WeatherWebApp.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\ULFG\\Cloud&BigData\\Sprint10\\WeatherWebAppGD\\WeatherWebApp\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\ULFG\\Cloud&BigData\\Sprint1\\WeatherWebAppGD\\WeatherWebApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
