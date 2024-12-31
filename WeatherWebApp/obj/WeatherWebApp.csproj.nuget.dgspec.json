@@ -49,6 +49,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[33.0.1, )"
+            },
             "DotNetEnv": {
               "target": "Package",
               "version": "[3.1.1, )"
@@ -56,6 +60,14 @@
             "Microsoft.Extensions.Http": {
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[7.1.0, )"
             }
           },
           "imports": [
