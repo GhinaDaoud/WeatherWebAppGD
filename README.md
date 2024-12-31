@@ -1,4 +1,4 @@
-# WeatherWebAppGD - Weather Web API
+# Weather Web API
 
 A simple ASP.NET Core Web API that retrieves current weather data from the OpenWeatherMap API based on a city name.
 
