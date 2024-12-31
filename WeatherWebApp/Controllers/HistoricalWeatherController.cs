@@ -72,7 +72,8 @@ namespace WeatherWebApp.Controllers
 
             System.IO.File.WriteAllText("weather_with_season_final.json", JsonConvert.SerializeObject(weatherData, Formatting.Indented));
 
-            using (var writer = new StreamWriter("weather_data.csv"))
+            //using (var writer = new StreamWriter("weather_data.csv"))
+            using (var writer = new StringWriter())
             {
                 writer.WriteLine("Time, Temperature, Pressure, Humidity, Cloud Cover, Wind Speed, Wind Direction, Season");
 
@@ -91,9 +92,13 @@ namespace WeatherWebApp.Controllers
                     var season = seasons[i];
                     writer.WriteLine($"{time},{temperature}, {pressure_msl}, {relative_humidity_2m}, {cloud_cover}, {wind_speed_10m}, {wind_direction_10m}, {season}");
                 }
+
+                return File(System.Text.Encoding.UTF8.GetBytes(writer.ToString()), "text/csv", "weather_data.csv");
+    
             }
 
-            return Ok("Weather data with seasons and CSV file saved.");
+            //return Ok("Weather data with seasons and CSV file saved.");
+           
         }
     }
 }
